@@ -1,0 +1,76 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+#brand {
+  font-family: "Rock Salt", cursive;
+}
+
+.active {
+  color: #fff;
+}
+
+.search-btn {
+  width: 8rem;
+}
+
+.home-item {
+  max-height: 40rem;
+}
+
+.home-item img {
+  cursor: pointer;
+  transition: transform 0.3s linear;
+}
+
+.home-item img:hover {
+  transform: scale(1.07);
+}
+
+.top-title {
+  text-align: center;
+  margin: 2rem 0;
+}
+
+.star-img {
+  width: 18px;
+  position: relative;
+  top: -2px;
+}
+
+.card-text {
+  margin: 0;
+}
+
+.cast-info,
+.movie-info {
+  display: flex;
+  overflow-x: auto;
+}
+
+.cast-info img,
+.movie-info img {
+  width: 150px;
+  text-align: center;
+  height: 250px;
+}
+
+.cast-item,
+.movie-item {
+  width: 200px;
+  margin: 0 0.5rem;
+}
+
+.card-text {
+  width: 100%;
+}
+
+#spinner {
+  display: none;
+}
+
+footer {
+  margin-top: 30px;
+}
